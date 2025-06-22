@@ -15,7 +15,7 @@ Use the following Markdown to preview them in the README:
 
 ```md
 ![Landing Page]((https://github.com/uzmajamadar/ZapFox/blob/8121f3faae64ecb42fbafc682fed09c2f6c104a6/Screenshot%202025-06-22%20133134.png))
-![Landing Page]([./public/p2.png](https://github.com/uzmajamadar/ZapFox/blob/8121f3faae64ecb42fbafc682fed09c2f6c104a6/Screenshot%202025-06-22%20134059.png))
+![Landing Page](Screenshot 2025-06-22 134059.png)
 
 ## 🚀 Key Features
 
