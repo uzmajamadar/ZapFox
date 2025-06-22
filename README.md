@@ -6,6 +6,16 @@
 > 🧠 Inspired by platforms like Zapier and Integromat — but built with developers and non-tech users in mind.
 
 ---
+## 📸 Screenshots
+
+> Screenshots are available inside the `public/` folder  
+Example files: `p1.png`, `p2.png`, etc.
+
+Use the following Markdown to preview them in the README:
+
+```md
+![Landing Page]((https://github.com/uzmajamadar/ZapFox/blob/8121f3faae64ecb42fbafc682fed09c2f6c104a6/Screenshot%202025-06-22%20133134.png))
+![Landing Page]([./public/p2.png](https://github.com/uzmajamadar/ZapFox/blob/8121f3faae64ecb42fbafc682fed09c2f6c104a6/Screenshot%202025-06-22%20134059.png))
 
 ## 🚀 Key Features
 
@@ -37,17 +47,6 @@
 
 ---
 
-## 📸 Screenshots
-
-> Screenshots are available inside the `public/` folder  
-Example files: `p1.png`, `p2.png`, etc.
-
-Use the following Markdown to preview them in the README:
-
-```md
-![Landing Page](./public/p1.png)
-![Workflow Builder](./public/p2.png)
-```
 
 ---
 
