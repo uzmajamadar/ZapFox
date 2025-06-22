@@ -1,36 +1,163 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# ⚡ ZapFox
 
-First, run the development server:
+**ZapFox** is a modern, scalable SaaS automation platform built for agencies, businesses, and startups to **build, automate, and manage multi-tenant websites and cross-platform workflows** with ease.
+
+> 🧠 Inspired by platforms like Zapier and Integromat — but built with developers and non-tech users in mind.
+
+---
+
+## 🚀 Key Features
+
+- 🧩 **Drag-and-drop Workflow Builder** – Intuitive interface using React Flow
+- 🌐 **Multivendor B2B2B SaaS Support** – Agencies & sub-accounts with role-based access
+- 🔄 **Real-time Workflow Automation** – Event-based triggers & instant execution
+- 🏗️ **Unlimited Funnel Hosting** – Deploy as many workflows & sites as you want
+- 👥 **User Authentication** – Powered by Clerk (OAuth 2.0)
+- 💳 **Stripe Connect Integration** – Subscriptions, add-ons, custom checkouts
+- 📦 **Media Storage** – Upload files and manage storage in one place
+- 📊 **Custom Dashboards & Analytics**
+- 🔔 **Real-time Notifications**
+- 🌙 **Light & Dark Mode Toggle**
+- 🗂️ **Project Management** – Kanban board, metrics & task notifications
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer           | Tools & Libraries                          |
+|----------------|---------------------------------------------|
+| **Frontend**   | Next.js 14, TailwindCSS, React Flow, Framer Motion |
+| **Backend**    | Node.js, Prisma ORM                         |
+| **Database**   | PostgreSQL                                  |
+| **Authentication** | Clerk.js (OAuth 2.0)                    |
+| **UI Components** | shadcn/ui                                |
+| **Validation** | Zod                                         |
+| **CI/CD**      | GitHub Actions + Vercel                     |
+
+---
+
+## 📸 Screenshots
+
+> Screenshots are available inside the `public/` folder  
+Example files: `p1.png`, `p2.png`, etc.
+
+Use the following Markdown to preview them in the README:
+
+```md
+![Landing Page](./public/p1.png)
+![Workflow Builder](./public/p2.png)
+```
+
+---
+
+## 🧪 Live Demo
+
+**Not deployed yet.**  
+➡️ Want a live demo on [Vercel](https://vercel.com/)? Let us know!
+
+---
+
+## ⚙️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/zapfox.git
+cd zapfox
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Configure Environment Variables
+
+Copy the example file and add your secrets:
+
+```bash
+cp .env.example .env
+```
+
+Fill in the required values:
+
+```env
+DATABASE_URL=your-postgres-db-url
+CLERK_PUBLISHABLE_KEY=your-clerk-pk
+CLERK_SECRET_KEY=your-clerk-sk
+STRIPE_SECRET_KEY=your-stripe-sk
+STRIPE_WEBHOOK_SECRET=your-webhook-sk
+```
+
+### 4. Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🔗 API Integrations
 
-## Learn More
+- ✅ Google Drive – File storage & sync
+- ✅ Slack – Automated messaging & notifications
+- ✅ Discord – Server notifications
+- ✅ Notion – Task & database automation
 
-To learn more about Next.js, take a look at the following resources:
+> Supports **100+ API calls per user per minute** with real-time triggers.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🔍 Testing
 
-## Deploy on Vercel
+Uses **Jest** for unit and integration tests.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm run test
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+
+## 📦 Deployment
+
+Recommended: **Vercel**
+
+Also supports: Netlify, Cloudflare Pages, Docker
+
+### One-click Deploy (Coming soon...)
+
+---
+
+## 🧠 Future Enhancements
+
+- 🌐 Integrations with Trello, Asana, Salesforce, WhatsApp Business
+- 🤖 AI-Powered Workflow Suggestions
+- 📈 Advanced Workflow Analytics
+- 🌍 Multilingual UI
+- 👨‍👩‍👧 Collaborative Workflow Editing
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.  
+See the [LICENSE](LICENSE) file for more details.
+
+---
+
+## 🙌 Contributing
+
+Contributions are welcome!  
+Please open an issue or submit a pull request.
+
+---
+
+## 📫 Contact
+
+For feature requests or deployment help:  
+**Email:** yourname@example.com  
+**LinkedIn:** [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
