@@ -11,7 +11,7 @@
 > Screenshots are available inside the `public/` folder  
 Example files: `p1.png`, `p2.png`, etc.
 md
-![Alt Text](./path/to/image.png)
+![Alt Text][(./path/to/image.png)](https://github.com/uzmajamadar/ZapFox/blob/8814c474c418e1eb1faec5626c088c42b3c28aa7/Screenshot%202025-06-22%20133134.png)
 
 
 ![Landing Page]((./https://github.com/uzmajamadar/ZapFox/blob/8121f3faae64ecb42fbafc682fed09c2f6c104a6/Screenshot%202025-06-22%20133134.png))
