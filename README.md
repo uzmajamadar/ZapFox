@@ -10,19 +10,23 @@
 
 ![ZapFox LandingPage](https://github.com/user-attachments/assets/5b04b6c6-4290-4482-b75c-2c1158285110)
 ![ZapFox LandingPage](https://github.com/user-attachments/assets/34413516-6b2b-4bf2-b59b-7aadef636870)
-<h3 align="center">Landing Page</h3>
+<h2 align="center">Landing Page</h2>
 
 ![Setting](https://github.com/user-attachments/assets/70a8304b-809b-42f7-bf68-1a0c4b0a919d)
+<h2 align="center">Setting</h2>
 
 
 ![Dashboard](https://github.com/user-attachments/assets/3845935a-2ddf-46cb-9225-c8ad6a5e6da2)
+<h2 align="center">Dashboard</h2>
 
 
 ![Connection](https://github.com/user-attachments/assets/532e0e86-f94d-49c6-8389-aa5e502fc1eb)
 ![Connection](https://github.com/user-attachments/assets/3e52bd66-9580-4bd9-a23a-646dc7cbfbc8)
+<h2 align="center">Connection</h2>
 
 
 ![Workflow](https://github.com/user-attachments/assets/22ea4fd4-1245-4aad-81ee-2c26b924e130)
+<h2 align="center">Workflow</h2>
 
 
 ## 🚀 Key Features
