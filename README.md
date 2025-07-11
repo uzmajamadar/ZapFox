@@ -161,15 +161,20 @@ ZapFox employs a **modular, scalable architecture** to deliver seamless workflow
 
 ---
 
-## 🚀 Future Enhancements
+🚀 Future Enhancements
+AI-Powered Suggestions: Recommend optimized workflows based on user behavior and usage patterns.
 
-- **AI-Powered Suggestions**: Recommend optimized workflows based on user behavior and usage patterns.
-- **Advanced Analytics Dashboard**: Real-time insights into workflow performance, errors, and user activity.
-- **Expanded Integrations**: Add support for Trello, Asana, Salesforce, WhatsApp Business, and more.
-- **Multilingual Support**: Enable a global user base with UI translations.
-- **Collaborative Workflows**: Allow multiple users to co-edit and manage workflows with granular permissions.
-- **Workflow Simulation Tool**: Preview and debug automation flows before deployment.
-- **End-to-End Encryption**: Enhance data security with encrypted workflow execution and storage.
+Advanced Analytics Dashboard: Real-time insights into workflow performance, errors, and user activity.
+
+Expanded Integrations: Add support for Trello, Asana, Salesforce, WhatsApp Business, and more.
+
+Multilingual Support: Enable a global user base with UI translations.
+
+Collaborative Workflows: Allow multiple users to co-edit and manage workflows with granular permissions.
+
+Workflow Simulation Tool: Preview and debug automation flows before deployment.
+
+End-to-End Encryption: Enhance data security with encrypted workflow execution and storage.
 
 ---
 
