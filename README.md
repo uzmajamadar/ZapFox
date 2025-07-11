@@ -40,6 +40,7 @@
 ## 🚀 Key Features
 ![WhatsApp Image 2025-07-11 at 17 03 56_08f21cd1](https://github.com/user-attachments/assets/6c4d9938-4529-4d6c-b077-7384b1a2ba4a)
 
+![Zapfox(architecture)](https://github.com/user-attachments/assets/8d021bcb-fda6-49c9-a06f-e3b8de185133)
 
 
 - 🧩 **Drag-and-drop Workflow Builder** – Intuitive interface using React Flow
