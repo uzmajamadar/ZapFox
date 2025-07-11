@@ -127,16 +127,6 @@ npm run test
 
 ---
 
-## 📦 Deployment
-
-Recommended: **Vercel**
-
-Also supports: Netlify, Cloudflare Pages, Docker
-
-### One-click Deploy (Coming soon...)
-
----
-
 ## 🧠 Future Enhancements
 
 - 🌐 Integrations with Trello, Asana, Salesforce, WhatsApp Business
