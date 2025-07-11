@@ -157,19 +157,8 @@ ZapFox employs a **modular, scalable architecture** to deliver seamless workflow
 ├── public               # Static assets
 ├── .env.example         # Environment variable template
 ├── package.json         # Project configuration
-----
+---
 
-##  System Architecture
-
-ZapFox employs a **modular, scalable architecture** to deliver seamless workflow automation.
-
-- **User Interaction Layer**: Built with **Next.js** and **React Flow** for a responsive, intuitive experience.  
-- **Workflow Engine**: Executes tasks based on **real-time triggers** and user-defined logic.  
-- **Authentication Layer**: Secured with **Clerk.js** and **OAuth 2.0** for access control and service authentication.  
-- **API Integrations**: Supports **high-throughput, low-latency** interactions with Google Drive, Slack, Discord, and Notion.  
-- **Database Layer**: Uses **PostgreSQL** and **Prisma ORM** for storing workflows, templates, and logs.  
-- **Error Management**: Logs and resolves issues with **timestamped error handling** and recovery mechanisms.  
-- **Notifications System**: Sends automated updates via **Slack API**, **Discord webhooks**, and email triggers. 
 
 🚀 Future Enhancements
 AI-Powered Suggestions: Recommend optimized workflows based on user behavior and usage patterns.
