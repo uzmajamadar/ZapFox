@@ -68,9 +68,7 @@ Unlike complex or expensive alternatives, ZapFox is:
 
 ![WhatsApp Image 2025-07-11 at 17 03 56_4439dad7](https://github.com/user-attachments/assets/b6cb8736-a028-491b-90eb-2691af8698fb)
 
-
-
-
+----
 ## Technical Stack
 
 | Component     | Technology                   | Purpose                                                   |
@@ -160,10 +158,8 @@ ZapFox employs a **modular, scalable architecture** to deliver seamless workflow
 ├── .env.example         # Environment variable template
 ├── package.json         # Project configuration
 
-
-
-
 ---
+
 ## 🚀 Future Enhancements
 
 - **AI-Powered Suggestions**: Recommend optimized workflows based on user behavior and usage patterns.
@@ -174,31 +170,18 @@ ZapFox employs a **modular, scalable architecture** to deliver seamless workflow
 - **Workflow Simulation Tool**: Preview and debug automation flows before deployment.
 - **End-to-End Encryption**: Enhance data security with encrypted workflow execution and storage.
 
-----
+---
 
 ## 🤝 Contributions Welcome
 
 We welcome contributions from the community!
 
 If you'd like to report a bug, suggest a feature, or contribute code:
-1. Fork the repository
 
-2.  Create a new branch 
-    ```bash
-    git checkout -b feature/your-feature-name
+1. Fork the repository  
+2. Create a new branch  
+   ```bash
+   git checkout -b feature/your-feature-name
 
-3.  Commit your changes
-
-4. Open a pull request
-
----
-
-## ✉️ Contact
-
-For questions, suggestions, or collaborations, feel free to reach out:
-
-- **Email**: jamadaruzma04@gmail.com  
-- **LinkedIn**: [Uzma Jamadar](https://www.linkedin.com/in/uzma-jamadar)  
-- **GitHub**: [@uzmajamadar](https://github.com/uzmajamadar)
 
 
