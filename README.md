@@ -17,8 +17,7 @@
 <img width="1918" height="910" alt="Screenshot 2025-07-11 173917" src="https://github.com/user-attachments/assets/7775b701-8f9e-4103-a7d4-7aef4fbe3467" />
 
 
-![Dashboard](https://github.com/user-attachments/assets/3845935a-2ddf-46cb-9225-c8ad6a5e6da2)
-<h2 align="center">Dashboard</h2>
+![User Sign up](https://github.com/user-attachments/assets/faa60f06-03c4-4a45-a766-6c0ebc1c4948)
 
 
 ![Connection](https://github.com/user-attachments/assets/532e0e86-f94d-49c6-8389-aa5e502fc1eb)
@@ -31,6 +30,7 @@
 
 ![Workflow](https://github.com/user-attachments/assets/22ea4fd4-1245-4aad-81ee-2c26b924e130)
 <h2 align="center">Workflow</h2>
+<img width="1909" height="957" alt="Screenshot 2025-07-11 173219" src="https://github.com/user-attachments/assets/faa60f06-03c4-4a45-a766-6c0ebc1c4948" />
 
 
 ## 🚀 Key Features
