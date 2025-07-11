@@ -63,13 +63,6 @@
 
 ---
 
-## 🧪 Live Demo
-
-**Not deployed yet.**  
-➡️ Want a live demo on [Vercel](https://vercel.com/)? Let us know!
-
----
-
 ## ⚙️ Getting Started
 
 ### 1. Clone the repository
