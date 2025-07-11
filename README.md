@@ -10,27 +10,31 @@
 
 ![ZapFox LandingPage](https://github.com/user-attachments/assets/5b04b6c6-4290-4482-b75c-2c1158285110)
 ![ZapFox LandingPage](https://github.com/user-attachments/assets/34413516-6b2b-4bf2-b59b-7aadef636870)
-<h2 align="center">Landing Page</h2>
-
-![Setting](https://github.com/user-attachments/assets/70a8304b-809b-42f7-bf68-1a0c4b0a919d)
-<h2 align="center">Setting</h2>
-<img width="1918" height="910" alt="Screenshot 2025-07-11 173917" src="https://github.com/user-attachments/assets/7775b701-8f9e-4103-a7d4-7aef4fbe3467" />
 
 
 ![User Sign up](https://github.com/user-attachments/assets/faa60f06-03c4-4a45-a766-6c0ebc1c4948)
 
 
+![Setting](https://github.com/user-attachments/assets/7775b701-8f9e-4103-a7d4-7aef4fbe3467)
+
+
+
 ![Connection](https://github.com/user-attachments/assets/532e0e86-f94d-49c6-8389-aa5e502fc1eb)
 ![Connection](https://github.com/user-attachments/assets/3e52bd66-9580-4bd9-a23a-646dc7cbfbc8)
-<h2 align="center">Connection</h2>
-
-![WhatsApp Image 2025-07-11 at 17 03 56_7c73c7a5](https://github.com/user-attachments/assets/c3593a49-c34b-42ab-8236-f50373744dcc)
-![WhatsApp Image 2025-07-11 at 17 03 56_4439dad7](https://github.com/user-attachments/assets/b6cb8736-a028-491b-90eb-2691af8698fb)
-![WhatsApp Image 2025-07-11 at 17 03 56_08f21cd1](https://github.com/user-attachments/assets/59698e77-c64f-4139-bc16-b022751e4e77)
 
 ![Workflow](https://github.com/user-attachments/assets/22ea4fd4-1245-4aad-81ee-2c26b924e130)
-<h2 align="center">Workflow</h2>
-<img width="1909" height="957" alt="Screenshot 2025-07-11 173219" src="https://github.com/user-attachments/assets/faa60f06-03c4-4a45-a766-6c0ebc1c4948" />
+
+![WhatsApp Image 2025-07-11 at 17 03 56_08f21cd1](https://github.com/user-attachments/assets/59698e77-c64f-4139-bc16-b022751e4e77)
+
+![zapfox(orm)](https://github.com/user-attachments/assets/59402ded-dd0f-484e-8c11-3ddb8b6212b6)
+![zapfox(user)](https://github.com/user-attachments/assets/82d49427-dde5-405c-ac90-fdda3c947576)
+
+
+![WhatsApp Image 2025-07-11 at 17 03 56_7c73c7a5](https://github.com/user-attachments/assets/c3593a49-c34b-42ab-8236-f50373744dcc)
+
+
+
+![WhatsApp Image 2025-07-11 at 17 03 56_4439dad7](https://github.com/user-attachments/assets/b6cb8736-a028-491b-90eb-2691af8698fb)
 
 
 ## 🚀 Key Features
