@@ -14,6 +14,7 @@
 
 ![Setting](https://github.com/user-attachments/assets/70a8304b-809b-42f7-bf68-1a0c4b0a919d)
 <h2 align="center">Setting</h2>
+<img width="1918" height="910" alt="Screenshot 2025-07-11 173917" src="https://github.com/user-attachments/assets/7775b701-8f9e-4103-a7d4-7aef4fbe3467" />
 
 
 ![Dashboard](https://github.com/user-attachments/assets/3845935a-2ddf-46cb-9225-c8ad6a5e6da2)
@@ -24,12 +25,17 @@
 ![Connection](https://github.com/user-attachments/assets/3e52bd66-9580-4bd9-a23a-646dc7cbfbc8)
 <h2 align="center">Connection</h2>
 
+![WhatsApp Image 2025-07-11 at 17 03 56_7c73c7a5](https://github.com/user-attachments/assets/c3593a49-c34b-42ab-8236-f50373744dcc)
+![WhatsApp Image 2025-07-11 at 17 03 56_4439dad7](https://github.com/user-attachments/assets/b6cb8736-a028-491b-90eb-2691af8698fb)
+![WhatsApp Image 2025-07-11 at 17 03 56_08f21cd1](https://github.com/user-attachments/assets/59698e77-c64f-4139-bc16-b022751e4e77)
 
 ![Workflow](https://github.com/user-attachments/assets/22ea4fd4-1245-4aad-81ee-2c26b924e130)
 <h2 align="center">Workflow</h2>
 
 
 ## 🚀 Key Features
+![WhatsApp Image 2025-07-11 at 17 03 56_08f21cd1](https://github.com/user-attachments/assets/6c4d9938-4529-4d6c-b077-7384b1a2ba4a)
+
 
 
 - 🧩 **Drag-and-drop Workflow Builder** – Intuitive interface using React Flow
