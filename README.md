@@ -158,6 +158,7 @@ ZapFox employs a **modular, scalable architecture** to deliver seamless workflow
 ├── .env.example         # Environment variable template
 ├── package.json         # Project configuration
 
+
 ---
 
 ## 🚀 Future Enhancements
