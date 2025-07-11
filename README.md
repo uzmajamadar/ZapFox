@@ -1,13 +1,13 @@
 
-# 🔗 ZapFox – SaaS Automation Platform
+#  ZapFox – SaaS Automation Platform
 
 🚀 *Revolutionizing Workflow Automation (Inspired by Zapier)*
 
-## 🔗 Overview
+##  Overview
 
 **ZapFox** is an advanced SaaS platform designed to **simplify, automate, and optimize** workflows across multiple platforms. With a focus on **non-technical accessibility** and **enterprise-grade scalability**, ZapFox empowers users to **create, monitor, and manage workflows** effortlessly using a **user-friendly drag-and-drop interface**.
 
-## 🔗 Why ZapFox?
+##  Why ZapFox?
 
 
 ZapFox simplifies automation for **non-technical users, educators, and startups** by offering a no-code, drag-and-drop platform to connect tools like **Google Drive, Slack, Discord, and Notion** in real time.
