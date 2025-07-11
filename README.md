@@ -109,13 +109,12 @@ ZapFox employs a **modular, scalable architecture** to deliver seamless workflow
    ```bash
    git clone https://github.com/your-username/zapfox.git
    cd zapfox
-Install dependencies:
+   
+2. **Install dependencies:**
 
-bash
-Copy
-Edit
-npm install
-Configure environment variables:
+npm run dev
+
+3. **Configure environment variables:**
 
 Create a .env file in the root directory and populate it using .env.example.
 
@@ -146,20 +145,6 @@ Open your browser and go to: http://localhost:3000
 
 
 ---
-## 📂 Folder Structure
-
-```bash
-├── src
-│   ├── components       # Reusable UI components
-│   ├── pages            # Application routes
-│   ├── utils            # Utility functions and helpers
-│   ├── workflows        # Workflow engine and API integration logic
-├── public               # Static assets
-├── .env.example         # Environment variable template
-├── package.json         # Project configuration
-
----
-
 
 ## 🚀 Future Enhancements
 - AI-Powered Suggestions: Recommend optimized workflows based on user behavior and usage patterns.
