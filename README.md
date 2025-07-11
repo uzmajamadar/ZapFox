@@ -109,25 +109,25 @@ ZapFox employs a **modular, scalable architecture** to deliver seamless workflow
    ```bash
    git clone https://github.com/your-username/zapfox.git
    cd zapfox
+Install dependencies:
 
-1. **Install dependencies:y:**
-   ```bash
-   npm install
-   
-   
+bash
+Copy
+Edit
+npm install
+Configure environment variables:
 
-1. **Configure environment variables:**
+Create a .env file in the root directory and populate it using .env.example.
 
-   ```bash
-   Create a .env file in the root directory and populate it using .env.example.
+Run the application:
 
-1. **Run the application:**
-   ```bash
-   npm run dev
+bash
+Copy
+Edit
+npm run dev
+Access the platform:
 
-1. **Access the platform:**
-   
-   Open your browser and go to http://localhost:3000
+Open your browser and go to: http://localhost:3000
 
 
 
