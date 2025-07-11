@@ -174,6 +174,7 @@ ZapFox employs a **modular, scalable architecture** to deliver seamless workflow
 - **Workflow Simulation Tool**: Preview and debug automation flows before deployment.
 - **End-to-End Encryption**: Enhance data security with encrypted workflow execution and storage.
 
+----
 
 ## 🤝 Contributions Welcome
 
