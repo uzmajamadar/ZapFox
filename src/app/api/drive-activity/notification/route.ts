@@ -6,9 +6,13 @@ import axios from 'axios'
 import { headers } from 'next/headers'
 import { NextRequest } from 'next/server'
 
+function handleChannel(channel: string) {
+  // ...existing code...
+}
+
 export async function POST(req: NextRequest) {
   console.log('🔴 Changed')
-  const headersList = headers()
+  const headersList = await headers()
   let channelResourceId
   headersList.forEach((value, key) => {
     if (key == 'x-goog-resource-id') {
@@ -30,7 +34,7 @@ export async function POST(req: NextRequest) {
         },
       })
       if (workflow) {
-        workflow.map(async (flow) => {
+        workflow.map(async (flow: any) => {
           const flowPath = JSON.parse(flow.flowPath!)
           let current = 0
           while (current < flowPath.length) {
@@ -52,7 +56,7 @@ export async function POST(req: NextRequest) {
               }
             }
             if (flowPath[current] == 'Slack') {
-              const channels = flow.slackChannels.map((channel) => {
+              const channels = flow.slackChannels.map((channel: string) => {
                 return {
                   label: '',
                   value: channel,

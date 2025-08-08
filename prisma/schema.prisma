@@ -25,6 +25,8 @@ model User {
   Notion                Notion[]
   Slack                 Slack[]
   workflows             Workflows[]
+  discordConnected      Boolean?               @default(false)
+  discordAccessToken    String?
 }
 
 model LocalGoogleCredential {

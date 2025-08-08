@@ -7,11 +7,7 @@ import { onNotionConnect } from './_actions/notion-connection'
 import { onSlackConnect } from './_actions/slack-connection'
 import { getUserData } from './_actions/get-user'
 
-type Props = {
-  searchParams?: { [key: string]: string | undefined }
-}
-
-const Connections = async (props: Props) => {
+export default async function Connections({ searchParams }: any) {
   const {
     webhook_id,
     webhook_name,
@@ -32,7 +28,7 @@ const Connections = async (props: Props) => {
     bot_user_id,
     team_id,
     team_name,
-  } = props.searchParams ?? {
+  } = searchParams ?? {
     webhook_id: '',
     webhook_name: '',
     webhook_url: '',
@@ -57,53 +53,52 @@ const Connections = async (props: Props) => {
   if (!user) return null
 
   const onUserConnections = async () => {
-    console.log(database_id)
-    await onDiscordConnect(
-      channel_id!,
-      webhook_id!,
-      webhook_name!,
-      webhook_url!,
-      user.id,
-      guild_name!,
-      guild_id!
-    )
-    console.log('Notion connect params:', { access_token, workspace_id, workspace_icon, workspace_name, database_id, userId: user.id })
-    if (access_token && workspace_id && workspace_icon && workspace_name && database_id) {
-      await onNotionConnect({
-        access_token: access_token,
-        workspace_id: workspace_id,
-        workspace_icon: workspace_icon,
-        workspace_name: workspace_name,
-        database_id: database_id,
-        id: user.id,
-      })
-    } else {
-      console.warn('Skipping onNotionConnect due to missing parameters')
+    // Only connect Discord if webhook_id is present in the URL
+    if (webhook_id) {
+      await onDiscordConnect(
+        Array.isArray(channel_id) ? channel_id[0] : channel_id || '',
+        Array.isArray(webhook_id) ? webhook_id[0] : webhook_id || '',
+        Array.isArray(webhook_name) ? webhook_name[0] : webhook_name || '',
+        Array.isArray(webhook_url) ? webhook_url[0] : webhook_url || '',
+        user.id,
+        Array.isArray(guild_name) ? guild_name[0] : guild_name || '',
+        Array.isArray(guild_id) ? guild_id[0] : guild_id || ''
+      )
     }
 
-    await onSlackConnect(
-      app_id!,
-      authed_user_id!,
-      authed_user_token!,
-      slack_access_token!,
-      bot_user_id!,
-      team_id!,
-      team_name!,
-      user.id
-    )
+    // Only connect Notion if all params are present
+    if (access_token && workspace_id && workspace_icon && workspace_name && database_id) {
+      await onNotionConnect({
+        access_token: Array.isArray(access_token) ? access_token[0] : access_token,
+        workspace_id: Array.isArray(workspace_id) ? workspace_id[0] : workspace_id,
+        workspace_icon: Array.isArray(workspace_icon) ? workspace_icon[0] : workspace_icon,
+        workspace_name: Array.isArray(workspace_name) ? workspace_name[0] : workspace_name,
+        database_id: Array.isArray(database_id) ? database_id[0] : database_id,
+        id: user.id,
+      })
+    }
 
+    // Only connect Slack if app_id is present
+    if (app_id) {
+      await onSlackConnect(
+        Array.isArray(app_id) ? app_id[0] : app_id || '',
+        Array.isArray(authed_user_id) ? authed_user_id[0] : authed_user_id || '',
+        Array.isArray(authed_user_token) ? authed_user_token[0] : authed_user_token || '',
+        Array.isArray(slack_access_token) ? slack_access_token[0] : slack_access_token || '',
+        Array.isArray(bot_user_id) ? bot_user_id[0] : bot_user_id || '',
+        Array.isArray(team_id) ? team_id[0] : team_id || '',
+        Array.isArray(team_name) ? team_name[0] : team_name || '',
+        user.id
+      )
+    }
+
+    // Always get user info and build connections object
     const connections: any = {}
-
     const user_info = await getUserData(user.id)
-
-    //get user info with all connections
-    user_info?.connections.map((connection) => {
+    user_info?.connections.map((connection: { type: string }) => {
       connections[connection.type] = true
       return (connections[connection.type] = true)
     })
-
-    // Google Drive connection will always be true
-    // as it is given access during the login process
     return { ...connections, 'Google Drive': true }
   }
 
@@ -133,5 +128,3 @@ const Connections = async (props: Props) => {
     </div>
   )
 }
-
-export default Connections

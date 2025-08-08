@@ -25,6 +25,13 @@ const ConnectionCard = ({
   title,
   connected,
 }: Props) => {
+  console.log({
+    type,
+    title,
+    connected: connected[type],
+    discordRedirect: process.env.NEXT_PUBLIC_DISCORD_REDIRECT,
+  });
+
   return (
     <Card className="flex w-full items-center justify-between">
       <CardHeader className="flex flex-col gap-4">
@@ -48,20 +55,21 @@ const ConnectionCard = ({
             Connected
           </div>
         ) : (
-          <Link
-            href={
-              title == 'Discord'
-                ? process.env.NEXT_PUBLIC_DISCORD_REDIRECT!
-                : title == 'Notion'
-                ? process.env.NEXT_PUBLIC_NOTION_AUTH_URL!
-                : title == 'Slack'
-                ? process.env.NEXT_PUBLIC_SLACK_REDIRECT!
-                : '#'
-            }
-            className=" rounded-lg bg-primary p-2 font-bold text-primary-foreground"
-          >
-            Connect
-          </Link>
+          (() => {
+            let href: string | undefined;
+            if (title === 'Discord') href = process.env.NEXT_PUBLIC_DISCORD_AUTH_URL;
+            else if (title === 'Notion') href = process.env.NEXT_PUBLIC_NOTION_AUTH_URL;
+            else if (title === 'Slack') href = process.env.NEXT_PUBLIC_SLACK_REDIRECT;
+
+            return href ? (
+              <Link
+                href={href}
+                className="rounded-lg bg-primary p-2 font-bold text-primary-foreground"
+              >
+                Connect
+              </Link>
+            ) : null;
+          })()
         )}
       </div>
     </Card>
